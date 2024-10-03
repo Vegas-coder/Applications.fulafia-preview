@@ -283,6 +283,9 @@ footer {
     .hero {
         padding: 15px;
         text-align: center;
+        flex-direction: column; 
+        text-align: center; 
+        padding: 200px 10px 1000px ; 
     }
 
 
