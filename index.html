@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulafia Applications</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/shortcut.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="logo">
+                <a href="https://fulafia.edu.ng/"><img src="images/logo1.png" height="45" width="170" alt=""></a>
+            </div>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/fulafia" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.twitter.com/fulafia" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://fulafia.edu.ng" target="_blank"><i class="fas fa-globe"></i></a></li>
+            </ul>            
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>ALL</h2> 
+            <h3><span>APPLICATIONS</span><br> IN ONE PLACE!</h3> 
+            <p>
+                This platform streamlines your application process, providing easy access 
+                to our diverse range of programs. Whether you're pursuing undergraduate, 
+                postgraduate, or specialized studies, our gateway offers a seamless and 
+                secure way to take the first step towards achieving your academic goals.
+            </p>
+        </div>
+        <div class="apply-section">
+            <h3>Click to apply</h3>
+            <div class="button-group">
+                <a href="https://my.fulafia.edu.ng/" target="_blank" class="button">Undergraduate</a>
+                <a href="https://spgs.fulafia.edu.ng/" target="_blank" class="button">Post Graduate</a>
+                <a href="https://sbrs.fulafia.edu.ng/" target="_blank" class="button">Remedials</a>
+                <a href="https://consult.fulafia.edu.ng/" target="_blank" class="button">Diploma</a>
+                <a href="https://consult.fulafia.edu.ng/" target="_blank" class="button">IJMB</a>
+                <a href="https://siwes.fulafia.edu.ng/" target="_blank" class="button">SIWES</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Federal University of Lafia Applications Portal</h3>
+                <p>Providing quality education and a seamless application process for all students.</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/fulafia" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.twitter.com/fulafia" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://fulafia.edu.ng" target="_blank"><i class="fas fa-globe"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contact Us</h4>
+                <p>registration@fulafia.edu.ng</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 MIS | Federal University of Lafia
+        </div>
+    </footer>
+
+    <script>
+        
+        window.addEventListener("scroll", function() {
+            const navbar = document.getElementById("navbar");
+            if (window.scrollY > 10) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+    
+</body>
+</html>
