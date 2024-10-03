@@ -218,17 +218,12 @@ footer {
 
     .button-group a {
         font-size: 14px; 
-        padding: 12px 100px ; 
+        padding: 12px 100px; 
     }
 
     
     .social-icons {
-        flex-direction: row; 
-        align-items: center;
-    }
-
-    .social-icons li {
-        margin: 0 10px; 
+        display: none;
     }
 
     
@@ -242,6 +237,7 @@ footer {
     .footer-content {
         flex-direction: column; 
         text-align: center; 
+        padding: 0 0;
     }
 
     
@@ -271,7 +267,7 @@ footer {
 
     .button-group a {
         font-size: 12px;
-        padding: 5px; 
+        padding: 5px 50px; 
     }
 
     
@@ -285,13 +281,14 @@ footer {
         text-align: center;
         flex-direction: column; 
         text-align: center; 
-        padding: 100px 10px 800px ; 
+        padding: 200px 10px 1000px ; 
     }
 
-
+  
     .footer-content {
         flex-direction: column;
         text-align: center;
+        padding: 0 0;
     }
-
+    
 }
